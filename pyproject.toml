@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qilin-fencp001-recovery"
+version = "1.1.0"
+description = "Privacy-first ransomware recovery and DFIR toolkit by Mazen Bassiso for Qilin-branded FENCP001 files and generic RAR4 reconstruction"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Mazen Bassiso"}]
+maintainers = [{name = "Mazen Bassiso"}]
+keywords = ["cybersecurity", "qilin", "ransomware", "malware-analysis", "recovery", "fencp001", "rar4", "incident-response", "dfir", "digital-forensics", "reverse-engineering", "privacy"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Information Technology",
+  "Intended Audience :: System Administrators",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+]
+
+[project.scripts]
+qilin-fencp-recovery = "qilin_fencp001_recovery:main"
+
+[tool.setuptools]
+py-modules = ["qilin_fencp001_recovery"]
+package-dir = {"" = "src"}
+
+[project.urls]
+Homepage = "https://fa7ma.com"
+Author = "https://fa7ma.com"
