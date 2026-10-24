@@ -13,7 +13,7 @@ Experimental **defensive recovery/decryption toolkit** for Qilin-branded files t
 
 ## Created by Mazen Bassiso
 
-**Mazen Bassiso — Cybersecurity Researcher & Technology Builder**
+**Mazen Bassiso — Cybersecurity Researcher with AI & Technology Builder**
 
 - Website: https://fa7ma.com
 - Public tech profile: **@maz_tech**
